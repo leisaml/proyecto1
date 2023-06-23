@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fbfbfb;
+}
+
+/* Estilos del encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Estilos de la sección de inicio */
+section#Inicio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+section#Inicio figure img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+section#Inicio article {
+  margin-top: 20px;
+}
+
+section#Inicio h1 {
+  margin-bottom: 10px;
+}
+
+section#Inicio p {
+  margin-bottom: 20px;
+}
+
+section#Inicio a 
+{
+  text-decoration: none;
+  color: #000;
+  padding: 10px 20px;
+  background-color: #ccc;
+  border-radius: 4px;
+}
+  section#Contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  section#Contacto h2 {
+    margin-bottom: 10px;
+  }
+  
+  section#Contacto p {
+    margin-bottom: 20px;
+  }
+  
+  section#Contacto ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  section#Contacto ul li {
+    margin-right: 10px;
+  }
+  
+  section#Contacto ul li a {
+    display: flex;
+    align-items: center;
+  }
+  
+  section#Contacto ul li a img 
+  {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+/* Estilos del pie de página */
+footer {
+  text-align: center;
+  padding: 20px;
+}
